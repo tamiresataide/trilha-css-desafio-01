@@ -60,3 +60,59 @@ body{
    background: rgba(20, 114, 183, 30%);
 }
 
+
+#course-content{
+   text-align: center;
+   margin: 118px auto;
+   width: 790px;
+}
+
+#course-content h2{
+   font-size: 32px;
+   font-weight: 700;
+   text-transform: uppercase;
+   line-height: 38px;
+   letter-spacing: 0.19em;
+   color: #33A8DB;
+}
+
+#course-content p, .module{
+   font-size: 16px;
+   font-weight: 400;
+   margin: 24px 0;
+   line-height: 19px;
+}
+
+.module{
+   background-color: #252525;
+   width: 535px;
+   padding: 16px;
+   margin: 24px auto;
+   border: thin solid #33A8DB;
+   border-radius: 50px;
+   box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+}
+
+.module span{
+   color: #33A8DB;
+}
+
+#transform-world{
+   border-top: thin solid #33A8DB;
+   border-bottom: thin solid #33A8DB;
+   height: 363px;
+   background: url(../images/woman-code.png);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+#transform-world p{
+   font-size: 40px;
+   font-weight: 900;
+   color: #FFFFFF;
+   text-shadow: 3px 2px 0px #33A8DB;
+   text-transform: lowercase;
+   width: 244px;
+   margin: 111px 198px;
+}
