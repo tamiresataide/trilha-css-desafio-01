@@ -116,3 +116,42 @@ body{
    width: 244px;
    margin: 111px 198px;
 }
+
+#professional-challenges{
+   text-align: center;
+   border-bottom: thin solid #33A8DB;
+}
+
+#professional-challenges h2{
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 38px;
+   letter-spacing: 0.19em;
+   text-transform: uppercase;
+   color: #33A8DB;
+   width: 800px;
+   margin: 76px auto 32px;
+}
+
+#professional-challenges p{
+   width: 800px;
+   margin: 40px auto 91px;
+}
+
+footer{
+   height: 150px;
+   background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+   text-align: center;
+   margin: auto;
+   padding: 40px 0;
+}
+
+footer p{
+   margin-top: 10px;
+}
+
+footer a{
+   color: #33A8DB;
+   text-decoration: none;
+   font-weight: 700;
+}
