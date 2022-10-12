@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Raleway', sans-serif;
+   box-sizing: border-box;
+   color: #FFF;
+}
+
+body{
+   background-color: #000;
+}
+
+.banner{
+   height: 100vh;
+   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-bottom: thin solid #33A8DB;
+}
+
+.banner-content{
+   text-align: center;
+   padding-top: 80px;
+   width: 600px;
+   margin: auto;
+}
+
+.banner h1{
+   color: transparent;
+   background: -webkit-linear-gradient(#33A8DB, #1472B7);
+   background-clip: text;
+   -webkit-background-clip: text;
+   font-size: 40px;
+   font-weight: 900;
+   text-transform: uppercase;
+   margin: 16px auto
+}
+
+.banner p{
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.banner button{
+   color: #31A8DD;
+   font-size: 16px;
+   font-weight: 900;
+   text-transform: uppercase;
+   letter-spacing: 0.21em;
+   padding: 19px 46px;
+   background-color: transparent;
+   border: 1px solid #31A8DD;
+   margin-top: 24px;
+}
+
+.banner button:hover{
+   cursor: pointer;
+   background: rgba(20, 114, 183, 30%);
+}
+
